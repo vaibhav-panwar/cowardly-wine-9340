@@ -1,0 +1,60 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ #disc {
+     display: flex;
+     justify-content: space-around;
+     background-color: #C32945;
+ }
+
+ #discin {
+     display: flex;
+     justify-content: space-evenly;
+     width: 70%;
+ }
+
+ #disc button {
+     background-color: #C32945;
+     border: 0px;
+ }
+ #signup{
+    display: flex;
+    justify-content: flex-end;
+
+ }
+ #search{
+    display: flex;
+    justify-content: space-between;
+ }
+ #search>:nth-child(1){
+    display: flex;
+ }
+ #searchbar{
+    display: flex;
+ }
+ #nav{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ #img1{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ #img1>img{
+    width: 20%;
+ }
+ #img2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+
+ }
+ #img2 img{
+    width: 100%;
+ }
+ #img2>:nth-child(1){
+ grid-column-start: 1;
+ grid-column-end: 4;    
+ }
