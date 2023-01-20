@@ -2,23 +2,18 @@
      margin: 0;
      padding: 0;
  }
-
- #disc {
-     display: flex;
-     justify-content: space-around;
-     background-color: #C32945;
- }
-
- #discin {
-     display: flex;
-     justify-content: space-evenly;
-     width: 70%;
- }
-
- #disc button {
-     background-color: #C32945;
-     border: 0px;
- }
+.slide{
+   display: flex;
+   position: relative;
+   overflow: hidden;
+}
+.slide>div{
+   position: absolute;
+   width: 100%;
+   margin-left: 200px;
+   
+   transition: 1s;
+}
  #signup{
     display: flex;
     justify-content: flex-end;
@@ -55,6 +50,19 @@
     width: 100%;
  }
  #img2>:nth-child(1){
- grid-column-start: 1;
- grid-column-end: 4;    
+    grid-column-start: 1;
+    grid-column-end: 4;    
  }
+ #img2>:nth-child(5) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+ }
+ #img2>:nth-child(6) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+ }
+  #img2>:nth-child(7) {
+     grid-column-start: 1;
+     grid-column-end: 4;
+  }
+ 
