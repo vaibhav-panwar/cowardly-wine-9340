@@ -1,22 +1,29 @@
-const slides = document.querySelectorAll(".slide>div");
-var counter =0;
+const slides = document.querySelectorAll(".slide");
+let btn1 = document.getElementById("btn1");
+let btn2 = document.getElementById("btn2");
+let counter = 0;
 slides.forEach((slide,index)=>{
     slide.style.left = `${index*100}%`
 })
-const slideDiv = ()=>{
+function slideImg(){
     slides.forEach((slide)=>{
-       slide.style.transform
+        slide.style.transform = `translateX(-${counter*100}%)`
     })
 }
-let prev = document.getElementById("btn1")
-let next = document.getElementById("btn2")
-prev.addEventListener("click",()=>{
+btn1.addEventListener("click", () => {
+    if (counter == 0) {
+        counter = 3;
+    }
     counter--;
-    slideDiv()
-    
+    slideImg();
+
 })
-prev.addEventListener("click", () => {
+btn2.addEventListener("click", () => {
+    if (counter == 2) {
+        counter = -1;
+    }
     counter++;
-    slideDiv()
+    slideImg();
+
 })
 

@@ -1,19 +1,51 @@
  * {
      margin: 0;
      padding: 0;
+     box-sizing: border-box;
  }
-.slide{
-   display: flex;
+ #disc{
+   color: white;
+   height: 50px;
+ }
+ #disc a{
+   text-decoration: none;
+   color: white;
+   text-decoration: underline;
+   
+ }
+ main{
+   width: 100%;
+   height: 50px;
    position: relative;
    overflow: hidden;
-}
-.slide>div{
+  
+ }
+ .slide{
    position: absolute;
    width: 100%;
-   margin-left: 200px;
-   
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
    transition: 1s;
-}
+   height: 100%;
+ }
+ .btn{
+   position: relative;
+   top: -35px;
+   left: 0;
+   display: flex;
+   justify-content: space-between;
+   margin: 0px 20px;
+ }
+ .btn button{
+   background: none;
+   border: none;
+   color: white;
+   font-size: 20px;
+   cursor: pointer;
+
+ }
+ 
  #signup{
     display: flex;
     justify-content: flex-end;
@@ -35,7 +67,8 @@
  }
  #img1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0px 60px;
  }
  #img1>img{
     width: 20%;
@@ -43,11 +76,13 @@
  #img2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 15px;
+    margin: 0px 60px;
+    gap: 39px 24px;
 
  }
  #img2 img{
     width: 100%;
+    height: 100%;
  }
  #img2>:nth-child(1){
     grid-column-start: 1;
@@ -65,4 +100,74 @@
      grid-column-start: 1;
      grid-column-end: 4;
   }
+  #img2>:nth-child(1)>button{
+   position: relative;
+   top: -60px;
+   left: 500px;
+   padding: 10px 20px;
+   background-color: #FDFDF9;
+   border: none;
+   }
+   #img2>:nth-child(2)>button {
+      position: relative;
+      top: -60px;
+      left: 100px;
+      padding: 10px 20px;
+      background-color: #FDFDF9;
+      border: none;
+   }
+   #img2>:nth-child(3)>button {
+      position: relative;
+      top: -60px;
+      left: 100px;
+      padding: 10px 20px;
+      background-color: #FDFDF9;
+      border: none;
+   }
+  #img2>:nth-child(4)>button {
+     position: relative;
+     top: -60px;
+     left: 100px;
+     padding: 10px 20px;
+     background-color: #FDFDF9;
+     border: none;
+  }
+  #img2>:nth-child(5)>button {
+     position: relative;
+     top: -60px;
+     left: 500px;
+     padding: 10px 20px;
+     background-color: #FDFDF9;
+     border: none;
+     margin-right: 20px;
+  }
+  #img2>:nth-child(6)>button {
+     position: relative;
+     top: -60px;
+     left: 500px;
+     padding: 10px 20px;
+     background-color: #FDFDF9;
+     border: none;
+  }
+  #img2>:nth-child(7)>button {
+     position: relative;
+     top: -60px;
+     left: 300px;
+     padding: 10px 20px;
+     background-color: #FDFDF9;
+     border: none;
+     margin-right: 20px;
+  }
+  #likecard{
+   position: relative;
+   margin: 0px 60px;
+   display: flex;
+   /* overflow-x: auto; */
+   height: 300px;
+   width: 100%;
+   border: 2px solid black;
+  }
+  
+  
+  
  
