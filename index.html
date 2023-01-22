@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Finds</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id="disc">
@@ -33,36 +34,40 @@
     </div>
     
     <div id="signup">
-        <p>English</p>
-        <p>Sign in/Sign up</p>
+        <p> <i class="fa fa-globe"></i> English($) </p>
+        <p> Sign in/Sign up</p>
     </div>
-    <div id="search">
-        <div>
-            <div id="logo">
-                Fashion Finds
+    <div id="stick">
+        <div id="search">
+            <div class="s1">
+                <a href="./index.html" id="a123">
+                    <h1>Fashion Finds</h1>
+                </a>
+                <h1>Fashion Homes</h1>
             </div>
-            <div id="logo1">
-                Fashion Home
-            </div>
+            
+            <form>
+                <input type="text" placeholder="Search Fashion Homes">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                <a href="./basket.html"><h2><i class="fa fa-shopping-cart"></i></h2></a>
+            </form>
+            
         </div>
-        <div id="searchbar">
-            <input type="text" placeholder="Search Fashion Finds">
-            <p>Basket</p>
+        <div id="nav">
+            <p class="c12">New!</p>
+            <p>Dresses</p>
+            <p>Clothing</p>
+            <p>Shoe</p>
+            <p>Accessories</p>
+            <p>Gifts</p>
+            <p>BHLDN Weddings</p>
+            <p>Home & Furniture</p>
+            <p>Beauty & Wellness</p>
+            <p>Garden & Outdoor</p>
+            <p>Sale</p>
         </div>
     </div>
-    <div id="nav">
-        <p>New!</p>
-        <p>Dresses</p>
-        <p>Clothing</p>
-        <p>Shoe</p>
-        <p>Accessories</p>
-        <p>Gifts</p>
-        <p>BHLDN Weddings</p>
-        <p>Home & Furniture</p>
-        <p>Beauty & Wellness</p>
-        <p>Garden & Outdoor</p>
-        <p>Sale</p>
-    </div>
+    
     <div id="img1">
         <img src="https://images.ctfassets.net/5de70he6op10/1ggDBqP8ZI5yHRgwSGmKJD/8d512b287a61b6bab0ae2c1bf1d387f3/463447543-ls_m0_banner_a.jpg?w=630&q=80&fm=webp" alt="">
         <img src="https://images.ctfassets.net/5de70he6op10/45zaqu5WmFVrpxnyWq4awL/492db526a888d7d9754da0cb5ab33f38/463447550-ls_m0_banner_b.jpg?w=630&q=80&fm=webp" alt="">
@@ -72,7 +77,7 @@
     <div id="img2">
        <div>
         <img src="https://images.ctfassets.net/5de70he6op10/77JavUQ5WftmGEzEB6tjUx/abea8ee44b2d05d8499cb7ccf1fa7b6b/463447556-ls_m1.jpg?w=2694&q=80&fm=webp" alt="">
-        <button>shop new clothing & accessories</button>
+        <button><a href="./newArrivals.html">shop new clothing & accessories</a></button>
        </div>
        <div>
         <img src="https://images.ctfassets.net/5de70he6op10/1mdJaJQGG11g0YRX6w70mT/426e6d72a18b8ec225b753011ed68f4b/463447559-ls_m2a.jpg?w=856&q=80&fm=webp" alt="">
@@ -101,7 +106,7 @@
         <button>book a complimentary styling appointment</button>
        </div>
     </div>
-    <h3>You may also like</h3>
+    <h3 id="head1">You may also like</h3>
     <div id="likecard">
         <div class="card">
            <div class="cardImg">
@@ -109,9 +114,10 @@
                 alt="" class="img1">
             <img src="https://images.urbndata.com/is/image/Anthropologie/4111578570002_011_b2?$an-category$&qlt=80&fit=constrain"
                 alt="" class="img2">
-            <button>Quickshop</button>
+          
            </div>
-            <p>Gleaming Primrose Mirror</p>
+            <button id="cardbtn">Quickshop</button>
+            <p id="desc">Gleaming Primrose Mirror</p>
         </div>
         <div class="card">
             <div class="cardImg">
@@ -119,18 +125,20 @@
                     alt="">
                 <img src="https://images.urbndata.com/is/image/Anthropologie/4123650590131_050_b2?$an-category$&qlt=80&fit=constrain"
                     alt="">
-                <button>Quickshop</button>
+               
             </div>
-            <p>The Collete Cropped Wide-Leg Pants</p>
+            <button id="cardbtn">Quickshop</button>
+            <p id="desc">The Collete Cropped Wide-Leg Pants</p>
         </div>
         <div class="card">
             <div class="cardImg">
                 <img src="https://images.urbndata.com/is/image/Anthropologie/4130370060122_038_b?$an-category$&qlt=80&fit=constrain"
                     alt="">
                 <img src="https://images.urbndata.com/is/image/Anthropologie/78196268_066_b2?$an-category$&qlt=80&fit=constrain" alt="">
-                <button>Quickshop</button>
+    
             </div>
-            <p>By Anthropologie Pleated V-Neck Dress</p>
+            <button id="cardbtn">Quickshop</button>
+            <p id="desc">By Anthropologie Pleated V-Neck Dress</p>
         </div>
         <div class="card">
             <div class="cardImg">
@@ -138,9 +146,10 @@
                     alt="">
                 <img src="https://images.urbndata.com/is/image/Anthropologie/4130916210042_043_b3?$an-category$&qlt=80&fit=constrain"
                     alt="">
-                <button>Quickshop</button>
+    
             </div>
-            <p>The Marias Printed Chiffon Maxi Dress</p>
+            <button id="cardbtn">Quickshop</button>
+            <p id="desc">The Marias Printed Chiffon Maxi Dress</p>
         </div>
         <div class="card">
            <div class="cardImg">
@@ -148,9 +157,10 @@
                 alt="">
             <img src="https://images.urbndata.com/is/image/Anthropologie/4123650590253_011_b2?$an-category$&qlt=80&fit=constrain"
                 alt="">
-            <button>Quickshop</button>
+
            </div>
-            <p>Farm Rio Long-Sleeve Shirt Dress</p>
+            <button id="cardbtn">Quickshop</button>
+            <p id="desc">Farm Rio Long-Sleeve Shirt Dress</p>
         </div>
         <div class="card">
             <div class="cardImg">
@@ -158,18 +168,20 @@
                     alt="">
                 <img src="https://images.urbndata.com/is/image/Anthropologie/4130652010065_041_b2?$an-category$&qlt=80&fit=constrain"
                     alt="">
-                <button>Quickshop</button>
+    
             </div>
-            <p>Maeve Layered Cable-knit Sweater</p>
+            <button id="cardbtn">Quickshop</button>
+            <p id="desc">Maeve Layered Cable-knit Sweater</p>
         </div>
         <div class="card">
             <div class="cardImg">
                 <img src="https://images.urbndata.com/is/image/Anthropologie/4110370060060_001_b?$an-category$&qlt=80&fit=constrain"
                     alt="">
                 <img src="https://images.urbndata.com/is/image/Anthropologie/80006695_001_b2?$an-category$&qlt=80&fit=constrain" alt="">
-                <button>Quickshop</button>
+    
             </div>
-            <p>By Anthropologie Relaxed Buttondown</p>
+            <button id="cardbtn">Quickshop</button>
+            <p id="desc">By Anthropologie Relaxed Buttondown</p>
         </div>
         <div class="card">
             <div class="cardImg">
@@ -177,18 +189,20 @@
                     alt="">
                 <img src="https://images.urbndata.com/is/image/Anthropologie/4130340890037_266_b2?$an-category$&qlt=80&fit=constrain"
                     alt="">
-                <button>Quickshop</button>
+    
             </div>
-            <p>Maeve Contrast Buttondown</p>
+            <button id="cardbtn">Quickshop</button>
+            <p id="desc">Maeve Contrast Buttondown</p>
         </div>
         <div class="card">
             <div class="cardImg">
                 <img src="https://images.urbndata.com/is/image/Anthropologie/4130529100015_015_b?$an-category$&qlt=80&fit=constrain"
                     alt="">
                 <img src="https://images.urbndata.com/is/image/Anthropologie/67684506_010_b?$an-category$&qlt=80&fit=constrain" alt="">
-                <button>Quickshop</button>
+    
             </div>
-            <p>By Anthropologie Twofer Sweater Dress</p>
+            <button id="cardbtn">Quickshop</button>
+            <p id="desc">By Anthropologie Twofer Sweater Dress</p>
         </div>
         <div class="card">
            <div class="cardImg">
@@ -196,12 +210,174 @@
                 alt="">
             <img src="https://images.urbndata.com/is/image/Anthropologie/4110259830514_016_b2?$an-category$&qlt=80&fit=constrain"
                 alt="">
-            <button>Quickshop</button>
+
            </div>
-            <p>By Anthropologie Lace-Sleeve Sweater</p>
+            <button id="cardbtn">Quickshop</button>
+            <p id="desc">By Anthropologie Lace-Sleeve Sweater</p>
+        </div>
+       </div>
+    <div class="likebtn">
+        <button id="b1"><</button>
+        <button id="b2">></button>
+    </div>
+    <h1 id="head2">
+        More to Explore
+    </h1>
+    <div id="moreContain">
+        <div class="moreCard">
+            <img src="https://images.ctfassets.net/5de70he6op10/6FaviHHW4c6sY7eosMxfU1/2f486f1f0e827cbce97559057c6ea6f8/463447578-mte_1.jpg?w=856&q=80&fm=webp" alt="">
+            <h1>BHLDN x TERRAIN: Vow To Wow</h1>
+            <h2>Giveaway</h2>
+            <p>We're treating one lucky bride to an unforgettable wedding gift.</p>
+            <a href="#">enter to win</a>
+        </div>
+        <div class="moreCard">
+            <img src="https://images.ctfassets.net/5de70he6op10/fs3J1GO3JjI6Wcy2KI3Lk/f8a9bc0a6312988f5194396d704304f8/463447579-mte_2.jpg?w=856&q=80&fm=webp" alt="">
+            <h1>New Reflections</h1>
+            <p><i>Taking shape</i> for 2023: room-defining mirrors of every persuasion.</p>
+            <a href="#">shop them all</a>
+        </div>
+        <div class="moreCard">
+            <img src="https://images.ctfassets.net/5de70he6op10/3aRTUtwz7StwT1WABWKXjo/f07d3abe0412609ceb6f0f6308808f87/MTE_2.jpg?w=856&q=80&fm=webp" alt="">
+            <h1>Anthropologie x BJGG</h1>
+            <p>Turn Your Blues Into Something NEW! Recycle your pre-loved denim at any Anthro store through 3/31/23 & receive $20 off a
+            $100+ full-price jeans purchase!
+            <i>Blue Jeans Go Green™ is a trademark of Cotton Incorporated.</i></p>
         </div>
     </div>
+    <div id="aboutUS">
+        <h3>About Us</h3>
+        <p>Our mission at Anthropologie has always been to surprise and delight you with unexpected, distinctive finds for your
+        closet and home. We source and craft all of our products with care, ensuring that any treasure you find at Anthropologie
+        is unique, just like you. Explore our dresses shop to find styles and fits perfect for any occasion, from cocktail...</p>
+        <a href="#">Read More</a>
+    </div>
+    <footer>
+        <div id="email">
+            <div>
+                <div class="ab">
+                    <h2>Sign Up For Email</h2>
+                    <p>Receive early access to new arrivals, sales, exclusive content, events and much more!</p>
+                </div>
+                <form class="em">
+                    <label for="">
+                        <h4>Email Address*</h4>
+                    </label>
+                    <input type="email" placeholder="">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <p>By signing up, you will receive Anthropologie offers, promotions and other commercial messages. You are also
+                agreeing to
+                Anthropologie’s Privacy Policy. You may unsubscribe at any time.</p>
+        </div>
+        
+        <div id="a1">
+            <table>
+                <thead>
+                    <tr>
+                        <td>
+                            <h4>Help</h4>
+                        </td>
+                        <td>
+                            <h4>About Us</h4>
+                        </td>
+                        <td>
+                            <h4>Services</h4>
+                        </td>
+                        <td>
+                            <h4>Connect</h4>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#">Track your order</a></td>
+                        <td><a href="#">Our Stories</a></td>
+                        <td><a href="#">AnthroPerks</a></td>
+                        <td><a href="#">Contact Us</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Start a Return or Exchange (US+CA)</a></td>
+                        <td><a href="#">Events</a></td>
+                        <td><a href="#">Gift Cards</a></td>
+                        <td><a href="#">Stay Connected</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Returns and Exchanges</a></td>
+                        <td><a href="#">Greater Good</a></td>
+                        <td><a href="#">AnthroLiving Designer & Trade Program</a></td>
+                        <td><a href="#">Careers</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Shipping</a></td>
+                        <td><a href="#">Diversity Inclusion</a></td>
+                        <td><a href="#">Furniture:Guide and services</a></td>
+                        <td><a href="#">Styling Services</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Customer Services</a></td>
+                        <td><a href="#">Stories</a></td>
+                        <td><a href="#">Store pickup and collection points</a></td>
+                        <td><a href="#">Request a Catalog</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Current promotions</a></td>
+                        <td></td>
+                        <td><a href="#">Klarana</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Product Recalls</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+        
+                </tbody>
+            </table>
+            <div>
+                <a href="#">
+                    <h3><span><i class="fa fa-map-marker"></i></span> Store Locator</h3>
+                </a>
+                <a href="#">
+                    <h3>&#9993;Get Email</h3>
+                </a>
+            </div>
+        </div>
+        <div id="icon">
+            <img src="https://images.ctfassets.net/5de70he6op10/4gWq1G4qLLgmqlNeHfzV2T/55298745127c36c5876f4013434c0c37/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917_Copy_2.svg"
+                alt="" id="apple">
+            <i class="fa fa-pinterest"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-twitter-square"></i>
+        </div>
+        <div class="sImg">
+            <img src="https://images.ctfassets.net/5de70he6op10/2Lh06CXT4AzVnj4LxvGsQD/a424e10a3b8c9e2e270dc22505bfbfa6/022421_SiteFooter_SMS_SIgnUp.jpg"
+                alt="">
+        </div>
+        <div class="nation">
+            <a href="#">US</a>
+            <a href="#">France</a>
+            <a href="#">Germany</a>
+            <a href="#">Italy</a>
+            <a href="#">Spain</a>
+            <a href="#">UK</a>
+        </div>
+        <div class="last">
+            <div class="a">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">CA Transparency</a>
+                <a href="#">Accessibility</a>
+                <a href="#">URBN.com</a>
+                <a href="#">For CA Residents</a>
+            </div>
+            <p>2023 URBN.com. All Rights Reserved.</p>
+        </div>
 
+    </footer>
 </body>
 <script src="./script.js"></script>
 </html>

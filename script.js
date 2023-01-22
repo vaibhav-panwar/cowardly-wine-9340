@@ -26,4 +26,17 @@ btn2.addEventListener("click", () => {
     slideImg();
 
 })
+const container = [...document.querySelectorAll("#likecard")];
+const b1 = [...document.querySelectorAll("#b1")];
+const b2 = [...document.querySelectorAll("#b2")];
+container.forEach((item,i)=>{
+    let cdim = item.getBoundingClientRect();
+    let cwidth = cdim.width;
+    b2[i].addEventListener("click",()=>{
+        item.scrollLeft += cwidth;
+    })
+    b1[i].addEventListener("click",()=>{
+        item.scrollLeft -= cwidth;
+    })
+})
 
